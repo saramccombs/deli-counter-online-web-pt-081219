@@ -10,6 +10,6 @@ def line(deli_queue)
     deli_queue.each_with_index do |name, index|
       current_line << " #{index+1}. #{name}"
     end
+    puts current_line
   end
-  puts current_line
 end
