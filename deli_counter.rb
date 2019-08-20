@@ -11,5 +11,5 @@ def line(deli_queue)
       current_line << " #{index+1}. #{name}"
     end
   end
-  current_line
+  puts current_line
 end
