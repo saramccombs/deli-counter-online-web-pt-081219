@@ -19,5 +19,6 @@ end
 # method returns the person's name and their position in line
 
 def take_a_number(current_line, new_person)
+  current_line << new_person 
   
 end
