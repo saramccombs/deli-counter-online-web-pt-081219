@@ -28,7 +28,7 @@ end
 # method retuns "There is nobody waiting to be served!" if the array == 0 
 
 def now_serving(current_line)
-  if current_line == 0 
+  if current_line.length == 0 
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{current_line[0]}."
