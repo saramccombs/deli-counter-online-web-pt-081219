@@ -4,7 +4,9 @@
 
 def line(deli_queue)
   if deli_queue.length == 0 
-    puts ""
+    puts "The line is currently empty."
   else
+    deli_queue.each_with_index do |index, name|
+    end
   end
 end
