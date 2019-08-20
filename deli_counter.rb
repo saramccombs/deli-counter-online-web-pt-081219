@@ -8,7 +8,7 @@ def line(deli_queue)
   else
     puts "The line is currently: "
     deli_queue.each_with_index do |name, index|
-      "#{index+1}. #{name}"
+      puts "#{index+1}. #{name}"
     end
   end
 end
